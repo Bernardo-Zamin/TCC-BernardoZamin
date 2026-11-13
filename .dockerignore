@@ -1,0 +1,16 @@
+# The build copies the repository to /app. Keep secrets and raw results out of the
+# image.
+.env
+.env.*
+!.env.example
+
+results/
+.git/
+.github/
+
+__pycache__/
+*.pyc
+.venv/
+
+*.md
+!README.md

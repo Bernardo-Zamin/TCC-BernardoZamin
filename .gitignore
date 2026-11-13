@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+
+# Raw episodes (7,920 JSON files) stay out of git. They are in the release archive.
+results/*
+!results/README.md
+!results/tables.md
+!results/tables.csv
+!results/episodes.csv
